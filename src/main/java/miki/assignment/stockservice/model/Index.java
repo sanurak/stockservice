@@ -32,4 +32,9 @@ public class Index {
 		this.receiveDate = receiveDate;
 	}
 
+	@Override
+	public String toString() {
+		return "Index [code=" + code + ", last=" + last + ", receiveDate=" + receiveDate + "]";
+	}
+
 }
